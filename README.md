@@ -45,7 +45,7 @@ cd build
 cmake ..
 
 # If build source in M1 Mac please append -DPNG_ARM_NEON=on in cmake argument list to prevent libpng compile error
-# cmake ../ -DPNG_ARM_NEON=ON
+# cmake ../ -DPNG_ARM_NEON=on
 
 make
 make install
